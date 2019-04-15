@@ -1,0 +1,22 @@
+{
+  "name": "learning-ramdajs",
+  "version": "1.0.0",
+  "description": "Repo to practice Ramda",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaum97/Learning-RamdaJs.git"
+  },
+  "author": "ChilenoSika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaum97/Learning-RamdaJs/issues"
+  },
+  "homepage": "https://github.com/Jaum97/Learning-RamdaJs#readme",
+  "dependencies": {
+    "ramda": "^0.26.1"
+  }
+}
