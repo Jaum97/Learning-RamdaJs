@@ -13,3 +13,18 @@ const add8 = R.compose(
 );
 
 const test2 = add8(8);
+
+const arr = [
+  { id: 1, name: "fluffkins" },
+  { id: 2, name: "bob" },
+  { id: 3, name: "jerry" },
+  { id: 4, name: "ermin" },
+  { id: 5, name: "joseph" },
+  { id: 6, name: "mike" }
+];
+
+const potato = R.pluck("name");
+
+const test = potato(arr);
+
+test;
