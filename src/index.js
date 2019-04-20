@@ -58,3 +58,18 @@ var students = [
 const maninho = R.reduceBy(groupScore, [], toGrade, students);
 
 maninho;
+
+const list = [{id: 'xyz', title: 'A'}, {id: 'abc', title: 'B'}];
+const potato2 = R.indexBy(R.prop('id'), list);
+
+potato2
+
+const raceResults = {
+  first: 'alice',
+  second: 'jake'
+};
+
+const potato3 = R.invertObj(raceResults);
+
+potato3
+
